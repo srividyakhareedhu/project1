@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-17T21:37:09 IST" name="Suite" finished-at="2019-10-17T21:39:51 IST" duration-ms="161920">
+    <groups>
+    </groups>
+    <test started-at="2019-10-17T21:37:09 IST" name="Test" finished-at="2019-10-17T21:39:51 IST" duration-ms="161920">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:38:43 IST" name="setUp" finished-at="2019-10-17T21:39:04 IST" duration-ms="21224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:04 IST" name="homePageTitleTest" finished-at="2019-10-17T21:39:04 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:04 IST" name="tearDown" finished-at="2019-10-17T21:39:06 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:06 IST" name="setUp" finished-at="2019-10-17T21:39:27 IST" duration-ms="21083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageHeaderTest()[pri:2, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:27 IST" name="homePageHeaderTest" finished-at="2019-10-17T21:39:27 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeaderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:27 IST" name="tearDown" finished-at="2019-10-17T21:39:28 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:28 IST" name="setUp" finished-at="2019-10-17T21:39:49 IST" duration-ms="21169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="acctHolderNameTest()[pri:3, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:49 IST" name="acctHolderNameTest" finished-at="2019-10-17T21:39:50 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acctHolderNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@47caedad]" started-at="2019-10-17T21:39:50 IST" name="tearDown" finished-at="2019-10-17T21:39:51 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactsPageTest@5340477f]" started-at="2019-10-17T21:38:05 IST" name="setUp" finished-at="2019-10-17T21:38:29 IST" duration-ms="24576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.ContactsPageTest@5340477f]" started-at="2019-10-17T21:38:29 IST" name="createContactTest" data-provider="getContactsData" finished-at="2019-10-17T21:38:42 IST" duration-ms="12598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tutor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactsPageTest@5340477f]" started-at="2019-10-17T21:38:42 IST" name="tearDown" finished-at="2019-10-17T21:38:43 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactsPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:09 IST" name="setUp" finished-at="2019-10-17T21:37:23 IST" duration-ms="14437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:23 IST" name="loginPageTitleTest" finished-at="2019-10-17T21:37:26 IST" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:26 IST" name="tearDown" finished-at="2019-10-17T21:37:27 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:27 IST" name="setUp" finished-at="2019-10-17T21:37:38 IST" duration-ms="11254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="showPswdDispTest()[pri:2, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:38 IST" name="showPswdDispTest" finished-at="2019-10-17T21:37:40 IST" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showPswdDispTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:40 IST" name="tearDown" finished-at="2019-10-17T21:37:42 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:42 IST" name="setUp" finished-at="2019-10-17T21:37:53 IST" duration-ms="11474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="doLoginTest()[pri:3, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:37:53 IST" name="doLoginTest" finished-at="2019-10-17T21:38:02 IST" duration-ms="9281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@2657d4dd]" started-at="2019-10-17T21:38:02 IST" name="tearDown" finished-at="2019-10-17T21:38:04 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
