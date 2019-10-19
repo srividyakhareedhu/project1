@@ -10,6 +10,9 @@ public class DealsPage {
 		this.driver=driver;
 	}
 	
-	
+	public void method_gitUpdate()
+	{
+		System.out.println("first git updation method");
+	}
 
 }
